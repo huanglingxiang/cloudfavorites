@@ -1,0 +1,712 @@
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+Opening JDBC Connection
+Created connection 10276356.
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+==>  Preparing: insert into favorite(flabel,furl,ftags,fdesc) values(?,?,?,?) 
+==> Parameters: google(String), http://www.google.com(String), 门户,军事,娱乐,搜索(String), good(String)
+<==    Updates: 1
+Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Returned connection 10276356 to pool.
+Cache Hit Ratio [com.yc.bean.Tag]: 0.0
+Opening JDBC Connection
+Checked out connection 10276356 from pool.
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+==>  Preparing: select * from tag WHERE tname=? 
+==> Parameters: 门户(String)
+<==      Total: 1
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Returned connection 10276356 to pool.
+Opening JDBC Connection
+Checked out connection 10276356 from pool.
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+==>  Preparing: update tag set tcount=tcount+1 where tname=? 
+==> Parameters: 门户(String)
+<==    Updates: 1
+Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Returned connection 10276356 to pool.
+Opening JDBC Connection
+Checked out connection 10276356 from pool.
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+==>  Preparing: insert into tagfavorite values(?,?) 
+==> Parameters: 7(String), 8(String)
+<==    Updates: 1
+Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Returned connection 10276356 to pool.
+Cache Hit Ratio [com.yc.bean.Tag]: 0.0
+Opening JDBC Connection
+Checked out connection 10276356 from pool.
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+==>  Preparing: select * from tag WHERE tname=? 
+==> Parameters: 军事(String)
+<==      Total: 1
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Returned connection 10276356 to pool.
+Opening JDBC Connection
+Checked out connection 10276356 from pool.
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+==>  Preparing: update tag set tcount=tcount+1 where tname=? 
+==> Parameters: 军事(String)
+<==    Updates: 1
+Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Returned connection 10276356 to pool.
+Opening JDBC Connection
+Checked out connection 10276356 from pool.
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+==>  Preparing: insert into tagfavorite values(?,?) 
+==> Parameters: 1(String), 8(String)
+<==    Updates: 1
+Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Returned connection 10276356 to pool.
+Cache Hit Ratio [com.yc.bean.Tag]: 0.0
+Opening JDBC Connection
+Checked out connection 10276356 from pool.
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+==>  Preparing: select * from tag WHERE tname=? 
+==> Parameters: 娱乐(String)
+<==      Total: 1
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Returned connection 10276356 to pool.
+Opening JDBC Connection
+Checked out connection 10276356 from pool.
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+==>  Preparing: update tag set tcount=tcount+1 where tname=? 
+==> Parameters: 娱乐(String)
+<==    Updates: 1
+Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Returned connection 10276356 to pool.
+Opening JDBC Connection
+Checked out connection 10276356 from pool.
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+==>  Preparing: insert into tagfavorite values(?,?) 
+==> Parameters: 2(String), 8(String)
+<==    Updates: 1
+Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Returned connection 10276356 to pool.
+Cache Hit Ratio [com.yc.bean.Tag]: 0.0
+Opening JDBC Connection
+Checked out connection 10276356 from pool.
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+==>  Preparing: select * from tag WHERE tname=? 
+==> Parameters: 搜索(String)
+<==      Total: 1
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Returned connection 10276356 to pool.
+Opening JDBC Connection
+Checked out connection 10276356 from pool.
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+==>  Preparing: update tag set tcount=tcount+1 where tname=? 
+==> Parameters: 搜索(String)
+<==    Updates: 1
+Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Returned connection 10276356 to pool.
+Opening JDBC Connection
+Checked out connection 10276356 from pool.
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+==>  Preparing: insert into tagfavorite values(?,?) 
+==> Parameters: 8(String), 8(String)
+<==    Updates: 1
+Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Returned connection 10276356 to pool.
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+Cache Hit Ratio [com.yc.bean.Tag]: 0.0
+Opening JDBC Connection
+Created connection 23583540.
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@167db34]
+==>  Preparing: select * from tag 
+==> Parameters: 
+<==      Total: 8
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@167db34]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@167db34]
+Returned connection 23583540 to pool.
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+Opening JDBC Connection
+Created connection 10276356.
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+==>  Preparing: insert into favorite(flabel,furl,ftags,fdesc) values(?,?,?,?) 
+==> Parameters: google(String), http://www.google.com(String), 门户,军事,娱乐,搜索(String), good(String)
+<==    Updates: 1
+Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Returned connection 10276356 to pool.
+Cache Hit Ratio [com.yc.bean.Tag]: 0.0
+Opening JDBC Connection
+Checked out connection 10276356 from pool.
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+==>  Preparing: select * from tag WHERE tname=? 
+==> Parameters: 门户(String)
+<==      Total: 1
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Returned connection 10276356 to pool.
+Opening JDBC Connection
+Checked out connection 10276356 from pool.
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+==>  Preparing: update tag set tcount=tcount+1 where tname=? 
+==> Parameters: 门户(String)
+<==    Updates: 1
+Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Returned connection 10276356 to pool.
+Opening JDBC Connection
+Checked out connection 10276356 from pool.
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+==>  Preparing: insert into tagfavorite values(?,?) 
+==> Parameters: 7(String), 9(String)
+<==    Updates: 1
+Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Returned connection 10276356 to pool.
+Cache Hit Ratio [com.yc.bean.Tag]: 0.0
+Opening JDBC Connection
+Checked out connection 10276356 from pool.
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+==>  Preparing: select * from tag WHERE tname=? 
+==> Parameters: 军事(String)
+<==      Total: 1
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Returned connection 10276356 to pool.
+Opening JDBC Connection
+Checked out connection 10276356 from pool.
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+==>  Preparing: update tag set tcount=tcount+1 where tname=? 
+==> Parameters: 军事(String)
+<==    Updates: 1
+Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Returned connection 10276356 to pool.
+Opening JDBC Connection
+Checked out connection 10276356 from pool.
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+==>  Preparing: insert into tagfavorite values(?,?) 
+==> Parameters: 1(String), 9(String)
+<==    Updates: 1
+Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Returned connection 10276356 to pool.
+Cache Hit Ratio [com.yc.bean.Tag]: 0.0
+Opening JDBC Connection
+Checked out connection 10276356 from pool.
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+==>  Preparing: select * from tag WHERE tname=? 
+==> Parameters: 娱乐(String)
+<==      Total: 1
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Returned connection 10276356 to pool.
+Opening JDBC Connection
+Checked out connection 10276356 from pool.
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+==>  Preparing: update tag set tcount=tcount+1 where tname=? 
+==> Parameters: 娱乐(String)
+<==    Updates: 1
+Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Returned connection 10276356 to pool.
+Opening JDBC Connection
+Checked out connection 10276356 from pool.
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+==>  Preparing: insert into tagfavorite values(?,?) 
+==> Parameters: 2(String), 9(String)
+<==    Updates: 1
+Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Returned connection 10276356 to pool.
+Cache Hit Ratio [com.yc.bean.Tag]: 0.0
+Opening JDBC Connection
+Checked out connection 10276356 from pool.
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+==>  Preparing: select * from tag WHERE tname=? 
+==> Parameters: 搜索(String)
+<==      Total: 1
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Returned connection 10276356 to pool.
+Opening JDBC Connection
+Checked out connection 10276356 from pool.
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+==>  Preparing: update tag set tcount=tcount+1 where tname=? 
+==> Parameters: 搜索(String)
+<==    Updates: 1
+Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Returned connection 10276356 to pool.
+Opening JDBC Connection
+Checked out connection 10276356 from pool.
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+==>  Preparing: insert into tagfavorite values(?,?) 
+==> Parameters: 8(String), 9(String)
+<==    Updates: 1
+Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@9cce04]
+Returned connection 10276356 to pool.
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+Cache Hit Ratio [com.yc.bean.Favorite]: 0.0
+Opening JDBC Connection
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+Cache Hit Ratio [com.yc.bean.Favorite]: 0.0
+Opening JDBC Connection
+Created connection 12359288.
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@bc9678]
+==>  Preparing: select fid,flabel,furl,ftags,fdesc from favorite where 1=1 and ftags='' 
+==> Parameters: 
+<==      Total: 0
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@bc9678]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@bc9678]
+Returned connection 12359288 to pool.
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+Cache Hit Ratio [com.yc.bean.Favorite]: 0.0
+Opening JDBC Connection
+Created connection 17282056.
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@107b408]
+==>  Preparing: select fid,flabel,furl,ftags,fdesc from favorite where 1=1 and ftags='' 
+==> Parameters: 
+<==      Total: 0
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@107b408]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@107b408]
+Returned connection 17282056 to pool.
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+Cache Hit Ratio [com.yc.bean.Favorite]: 0.0
+Opening JDBC Connection
+Created connection 12359288.
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@bc9678]
+==>  Preparing: select fid,flabel,furl,ftags,fdesc from favorite where 1=1 and ftags='' 
+==> Parameters: 
+<==      Total: 0
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@bc9678]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@bc9678]
+Returned connection 12359288 to pool.
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+Cache Hit Ratio [com.yc.bean.Favorite]: 0.0
+Opening JDBC Connection
+Created connection 12359288.
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@bc9678]
+==>  Preparing: select fid,flabel,furl,ftags,fdesc from favorite where 1=1 and ftags='' 
+==> Parameters: 
+<==      Total: 0
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@bc9678]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@bc9678]
+Returned connection 12359288 to pool.
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+Cache Hit Ratio [com.yc.bean.Favorite]: 0.0
+Opening JDBC Connection
+Created connection 20624684.
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@13ab52c]
+==>  Preparing: select fid,flabel,furl,ftags,fdesc from favorite where 1=1 and ftags='' 
+==> Parameters: 
+<==      Total: 0
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@13ab52c]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@13ab52c]
+Returned connection 20624684 to pool.
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+Cache Hit Ratio [com.yc.bean.Favorite]: 0.0
+Opening JDBC Connection
+Created connection 12359288.
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@bc9678]
+==>  Preparing: select fid,flabel,furl,ftags,fdesc from favorite where 1=1 
+==> Parameters: 
+<==      Total: 10
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@bc9678]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@bc9678]
+Returned connection 12359288 to pool.
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+Cache Hit Ratio [com.yc.bean.Favorite]: 0.0
+Opening JDBC Connection
+Created connection 12359288.
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@bc9678]
+==>  Preparing: select fid,flabel,furl,ftags,fdesc from favorite where 1=1 
+==> Parameters: 
+<==      Total: 10
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@bc9678]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@bc9678]
+Returned connection 12359288 to pool.
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+Cache Hit Ratio [com.yc.bean.Favorite]: 0.0
+Opening JDBC Connection
+Created connection 22946832.
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@15e2410]
+==>  Preparing: select fid,flabel,furl,ftags,fdesc from favorite where 1=1 and ftags='' 
+==> Parameters: 
+<==      Total: 0
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@15e2410]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@15e2410]
+Returned connection 22946832 to pool.
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+Cache Hit Ratio [com.yc.bean.Favorite]: 0.0
+Opening JDBC Connection
+Created connection 31377664.
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1dec900]
+==>  Preparing: select fid,flabel,furl,ftags,fdesc from favorite where 1=1 and ftags='' 
+==> Parameters: 
+<==      Total: 0
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1dec900]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1dec900]
+Returned connection 31377664 to pool.
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+Cache Hit Ratio [com.yc.bean.Favorite]: 0.0
+Opening JDBC Connection
+Created connection 27449140.
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1a2d734]
+==>  Preparing: select fid,flabel,furl,ftags,fdesc from favorite where 1=1 and ftags='' 
+==> Parameters: 
+<==      Total: 0
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1a2d734]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1a2d734]
+Returned connection 27449140 to pool.
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+Cache Hit Ratio [com.yc.bean.Favorite]: 0.0
+Opening JDBC Connection
+Created connection 31377664.
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1dec900]
+==>  Preparing: select fid,flabel,furl,ftags,fdesc from favorite where 1=1 and ftags='' 
+==> Parameters: 
+<==      Total: 0
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1dec900]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1dec900]
+Returned connection 31377664 to pool.
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+Cache Hit Ratio [com.yc.bean.Favorite]: 0.0
+Opening JDBC Connection
+Created connection 12359288.
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@bc9678]
+==>  Preparing: select fid,flabel,furl,ftags,fdesc from favorite where 1=1 
+==> Parameters: 
+<==      Total: 10
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@bc9678]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@bc9678]
+Returned connection 12359288 to pool.
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+Cache Hit Ratio [com.yc.bean.Favorite]: 0.0
+Opening JDBC Connection
+Created connection 15749071.
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@f04fcf]
+==>  Preparing: select fid,flabel,furl,ftags,fdesc from favorite where 1=1 
+==> Parameters: 
+<==      Total: 10
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@f04fcf]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@f04fcf]
+Returned connection 15749071 to pool.
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+Cache Hit Ratio [com.yc.bean.Favorite]: 0.0
+Opening JDBC Connection
+Created connection 20624684.
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@13ab52c]
+==>  Preparing: select fid,flabel,furl,ftags,fdesc from favorite where 1=1 
+==> Parameters: 
+<==      Total: 10
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@13ab52c]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@13ab52c]
+Returned connection 20624684 to pool.
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+Cache Hit Ratio [com.yc.bean.Favorite]: 0.0
+Opening JDBC Connection
+Created connection 26071352.
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@18dd138]
+==>  Preparing: select fid,flabel,furl,ftags,fdesc from favorite where 1=1 and ftags='' 
+==> Parameters: 
+<==      Total: 0
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@18dd138]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@18dd138]
+Returned connection 26071352 to pool.
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+Cache Hit Ratio [com.yc.bean.Favorite]: 0.0
+Opening JDBC Connection
+Created connection 27449140.
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1a2d734]
+==>  Preparing: select fid,flabel,furl,ftags,fdesc from favorite where 1=1 and ftags='' 
+==> Parameters: 
+<==      Total: 0
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1a2d734]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1a2d734]
+Returned connection 27449140 to pool.
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+Cache Hit Ratio [com.yc.bean.Favorite]: 0.0
+Opening JDBC Connection
+Created connection 22946832.
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@15e2410]
+==>  Preparing: select fid,flabel,furl,ftags,fdesc from favorite where 1=1 and ftags='' 
+==> Parameters: 
+<==      Total: 0
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@15e2410]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@15e2410]
+Returned connection 22946832 to pool.
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+Cache Hit Ratio [com.yc.bean.Favorite]: 0.0
+Opening JDBC Connection
+Created connection 12548661.
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@bf7a35]
+==>  Preparing: select fid,flabel,furl,ftags,fdesc from favorite where 1=1 
+==> Parameters: 
+<==      Total: 10
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@bf7a35]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@bf7a35]
+Returned connection 12548661 to pool.
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+Cache Hit Ratio [com.yc.bean.Favorite]: 0.0
+Opening JDBC Connection
+Created connection 12359288.
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@bc9678]
+==>  Preparing: select fid,flabel,furl,ftags,fdesc from favorite where 1=1 
+==> Parameters: 
+<==      Total: 10
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@bc9678]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@bc9678]
+Returned connection 12359288 to pool.
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+Cache Hit Ratio [com.yc.bean.Favorite]: 0.0
+Opening JDBC Connection
+Created connection 31377664.
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1dec900]
+==>  Preparing: select fid,flabel,furl,ftags,fdesc from favorite where 1=1 and ftags='' 
+==> Parameters: 
+<==      Total: 0
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1dec900]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1dec900]
+Returned connection 31377664 to pool.
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+Cache Hit Ratio [com.yc.bean.Favorite]: 0.0
+Opening JDBC Connection
+Created connection 2982259.
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2d8173]
+==>  Preparing: select fid,flabel,furl,ftags,fdesc from favorite where 1=1 and ftags='' 
+==> Parameters: 
+<==      Total: 0
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2d8173]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@2d8173]
+Returned connection 2982259 to pool.
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+Cache Hit Ratio [com.yc.bean.Favorite]: 0.0
+Opening JDBC Connection
+Created connection 26318627.
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1919723]
+==>  Preparing: select fid,flabel,furl,ftags,fdesc from favorite where 1=1 and ftags='' 
+==> Parameters: 
+<==      Total: 0
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1919723]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1919723]
+Returned connection 26318627 to pool.
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+Cache Hit Ratio [com.yc.bean.Favorite]: 0.0
+Opening JDBC Connection
+Created connection 12359288.
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@bc9678]
+==>  Preparing: select fid,flabel,furl,ftags,fdesc from favorite where 1=1 
+==> Parameters: 
+<==      Total: 10
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@bc9678]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@bc9678]
+Returned connection 12359288 to pool.
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+Cache Hit Ratio [com.yc.bean.Favorite]: 0.0
+Opening JDBC Connection
+Created connection 17282056.
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@107b408]
+==>  Preparing: select fid,flabel,furl,ftags,fdesc from favorite where 1=1 
+==> Parameters: 
+<==      Total: 10
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@107b408]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@107b408]
+Returned connection 17282056 to pool.
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+Cache Hit Ratio [com.yc.bean.Favorite]: 0.0
+Opening JDBC Connection
+Created connection 12359288.
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@bc9678]
+==>  Preparing: select fid,flabel,furl,ftags,fdesc from favorite where 1=1 
+==> Parameters: 
+<==      Total: 10
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@bc9678]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@bc9678]
+Returned connection 12359288 to pool.
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+Cache Hit Ratio [com.yc.bean.Favorite]: 0.0
+Opening JDBC Connection
+Created connection 15749071.
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@f04fcf]
+==>  Preparing: select fid,flabel,furl,ftags,fdesc from favorite where 1=1 and ftags='' 
+==> Parameters: 
+<==      Total: 0
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@f04fcf]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@f04fcf]
+Returned connection 15749071 to pool.
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+Cache Hit Ratio [com.yc.bean.Favorite]: 0.0
+Opening JDBC Connection
+Created connection 12548661.
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@bf7a35]
+==>  Preparing: select fid,flabel,furl,ftags,fdesc from favorite where 1=1 and ftags='' 
+==> Parameters: 
+<==      Total: 0
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@bf7a35]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@bf7a35]
+Returned connection 12548661 to pool.
+Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+PooledDataSource forcefully closed/removed all connections.
+Cache Hit Ratio [com.yc.bean.Favorite]: 0.0
+Opening JDBC Connection
+Created connection 17282056.
+Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@107b408]
+==>  Preparing: select fid,flabel,furl,ftags,fdesc from favorite where 1=1 
+==> Parameters: 
+<==      Total: 10
+Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@107b408]
+Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@107b408]
+Returned connection 17282056 to pool.
